@@ -26,8 +26,8 @@ a {
 nav {
   background-color: var(--header-bg-color);
 }
-.nav-link{
-  color:white
+.nav-link {
+  color: white;
 }
 .icon {
   height: 20px;
@@ -49,32 +49,30 @@ nav {
 .section__top {
   padding-top: 85px;
 }
-.fine-print{
-  font-size: .75em;
+.fine-print {
+  font-size: 0.75em;
 }
 
-.screen-cap{
-  display:inline-block;
+.screen-cap {
+  display: inline-block;
   height: 15em;
-  margin-right:2em;
+  margin-right: 2em;
 }
 
-.image-right{
-  display:flex
+.image-right {
+  display: flex;
 }
 
 @media only screen and (max-width: 800px) {
-  .screen-cap{
+  .screen-cap {
     width: 15em;
-    height:10em;
+    height: 10em;
   }
-
 }
 
 @media only screen and (max-width: 500px) {
-  .image-right{
+  .image-right {
     flex-direction: column;
     align-items: center;
   }
-
 }
